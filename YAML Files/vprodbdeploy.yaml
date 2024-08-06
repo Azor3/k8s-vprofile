@@ -20,7 +20,7 @@ spec:
         - name: db01
           image: azora/vprodb
           volumeMounts:
-            - mounthPath: /var/lib/mysql
+            - mountPath: /var/lib/mysql
               name: vpro-db-data
           ports:
             - name: vprodb-port
